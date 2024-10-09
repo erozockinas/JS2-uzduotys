@@ -1,7 +1,6 @@
 console.log("Pirma uzduotis");
 
 var el1 = document.getElementsByClassName('manoH1');
-console.log(el1);
 el1[0].style.backgroundColor = "Blue";
 el1[0].innerText = "Teksta pakeite JS pirma uzduotis";
 
@@ -10,7 +9,6 @@ el2.style.backgroundColor = "red";
 el2.innerHTML = "<div>Div teksta pakeite JS pirma uzduotis <p>p teksta irgi pakeite JS pirma uzduotis</p></div>";
 
 var el3 = document.querySelector('p');
-console.log(el3);
 el3.innerText = "Pakeistas p darkart su JS, pirma uzduotis";
 el3.style.backgroundColor = "Green";
 
